@@ -5,7 +5,6 @@ Covers: load_dataset, generate_risk_report, main
 """
 
 import os
-from unittest.mock import patch
 
 import pandas as pd
 import pytest
