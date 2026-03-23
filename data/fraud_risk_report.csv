@@ -1,0 +1,101 @@
+transaction_id,risk_score,risk_level,explanation
+0,5.0,LOW,"Moderate transaction amount (9,839.64)"
+1,0.0,LOW,No significant risk signals detected
+2,40.0,MEDIUM,High-risk transaction type: TRANSFER; Origin account fully drained to zero balance; Transaction flagged as fraud in dataset
+3,50.0,MEDIUM,High-risk transaction type: CASH_OUT; Origin account fully drained to zero balance; Destination balance dropped to zero after receiving funds; Transaction flagged as fraud in dataset
+4,10.0,LOW,"High transaction amount (11,668.14)"
+5,5.0,LOW,"Moderate transaction amount (7,817.71)"
+6,5.0,LOW,"Moderate transaction amount (7,107.77)"
+7,5.0,LOW,"Moderate transaction amount (7,861.64)"
+8,15.0,LOW,"Origin account fully drained to zero balance; Balance discrepancy at origin (expected -1353.36, got 0.00)"
+9,10.0,LOW,"Moderate transaction amount (5,337.77); Moderate-risk transaction type: DEBIT"
+10,25.0,LOW,"Moderate transaction amount (9,644.94); Moderate-risk transaction type: DEBIT; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -5179.94, got 0.00)"
+11,0.0,LOW,No significant risk signals detected
+12,0.0,LOW,No significant risk signals detected
+13,25.0,LOW,"High transaction amount (11,633.76); Origin account fully drained to zero balance; Balance discrepancy at origin (expected -1506.76, got 0.00)"
+14,0.0,LOW,No significant risk signals detected
+15,65.0,MEDIUM,"Extremely large transaction amount (229,133.94); High-risk transaction type: CASH_OUT; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -213808.94, got 0.00); Large cash-out transaction (229,133.94), potential fraud cash-out"
+16,15.0,LOW,"Origin account fully drained to zero balance; Balance discrepancy at origin (expected -1113.82, got 0.00)"
+17,0.0,LOW,No significant risk signals detected
+18,0.0,LOW,No significant risk signals detected
+19,55.0,MEDIUM,"Extremely large transaction amount (215,310.30); High-risk transaction type: TRANSFER; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -214605.30, got 0.00); Destination balance dropped to zero after receiving funds"
+20,0.0,LOW,No significant risk signals detected
+21,10.0,LOW,"Moderate transaction amount (9,302.79); Moderate-risk transaction type: DEBIT"
+22,10.0,LOW,Moderate-risk transaction type: DEBIT; Destination balance dropped to zero after receiving funds
+23,0.0,LOW,No significant risk signals detected
+24,50.0,MEDIUM,"Extremely large transaction amount (311,685.89); High-risk transaction type: TRANSFER; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -300850.89, got 0.00)"
+25,20.0,LOW,"Moderate transaction amount (6,061.13); Origin account fully drained to zero balance; Balance discrepancy at origin (expected -5618.13, got 0.00)"
+26,5.0,LOW,"Moderate transaction amount (9,478.39)"
+27,5.0,LOW,"Moderate transaction amount (8,009.09)"
+28,20.0,LOW,"Moderate transaction amount (8,901.99); Origin account fully drained to zero balance; Balance discrepancy at origin (expected -5943.08, got 0.00)"
+29,10.0,LOW,"Moderate transaction amount (9,920.52); Transaction from account with zero initial balance"
+30,5.0,LOW,Transaction from account with zero initial balance
+31,5.0,LOW,Transaction from account with zero initial balance
+32,10.0,LOW,"Moderate transaction amount (5,885.56); Transaction from account with zero initial balance"
+33,10.0,LOW,"Moderate transaction amount (5,307.88); Transaction from account with zero initial balance"
+34,10.0,LOW,"Moderate transaction amount (5,031.22); Transaction from account with zero initial balance"
+35,15.0,LOW,"High transaction amount (24,213.67); Transaction from account with zero initial balance"
+36,20.0,LOW,"Moderate transaction amount (8,603.42); Origin account fully drained to zero balance; Balance discrepancy at origin (expected -8350.42, got 0.00)"
+37,0.0,LOW,No significant risk signals detected
+38,10.0,LOW,"Moderate transaction amount (7,413.54); Balance discrepancy at origin (expected 290276.04, got 290276.03)"
+39,0.0,LOW,No significant risk signals detected
+40,15.0,LOW,"Origin account fully drained to zero balance; Balance discrepancy at origin (expected -1387.81, got 0.00)"
+41,10.0,LOW,"Moderate transaction amount (5,758.59); Moderate-risk transaction type: DEBIT"
+42,60.0,MEDIUM,"Very large transaction amount (110,414.71); High-risk transaction type: CASH_OUT; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -83569.30, got 0.00); Large cash-out transaction (110,414.71), potential fraud cash-out"
+43,20.0,LOW,"Moderate transaction amount (7,823.46); Origin account fully drained to zero balance; Balance discrepancy at origin (expected -6825.46, got 0.00)"
+44,10.0,LOW,"Moderate transaction amount (5,086.48); Transaction from account with zero initial balance"
+45,5.0,LOW,"Moderate transaction amount (5,281.48)"
+46,10.0,LOW,"High transaction amount (13,875.98)"
+47,55.0,MEDIUM,"High transaction amount (56,953.90); High-risk transaction type: CASH_OUT; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -55011.88, got 0.00); Large cash-out transaction (56,953.90), potential fraud cash-out"
+48,30.0,LOW,"Moderate transaction amount (5,346.89); High-risk transaction type: CASH_OUT; Transaction from account with zero initial balance"
+49,15.0,LOW,"Origin account fully drained to zero balance; Balance discrepancy at origin (expected -1618.04, got 0.00)"
+50,0.0,LOW,No significant risk signals detected
+51,50.0,MEDIUM,"High transaction amount (23,261.30); High-risk transaction type: CASH_OUT; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -2849.77, got 0.00); Destination balance dropped to zero after receiving funds"
+52,0.0,LOW,No significant risk signals detected
+53,0.0,LOW,No significant risk signals detected
+54,5.0,LOW,"Moderate transaction amount (9,164.71)"
+55,0.0,LOW,No significant risk signals detected
+56,0.0,LOW,No significant risk signals detected
+57,15.0,LOW,"Origin account fully drained to zero balance; Balance discrepancy at origin (expected -625.44, got 0.00)"
+58,25.0,LOW,"High transaction amount (62,610.80); High-risk transaction type: TRANSFER"
+59,15.0,LOW,"Moderate transaction amount (5,529.13); Moderate-risk transaction type: DEBIT; Destination balance dropped to zero after receiving funds"
+60,55.0,MEDIUM,"High transaction amount (82,940.31); High-risk transaction type: CASH_OUT; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -79922.44, got 0.00); Large cash-out transaction (82,940.31), potential fraud cash-out"
+61,10.0,LOW,Moderate-risk transaction type: DEBIT; Destination balance dropped to zero after receiving funds
+62,15.0,LOW,"Moderate transaction amount (8,727.74); Moderate-risk transaction type: DEBIT; Destination balance dropped to zero after receiving funds"
+63,5.0,LOW,"Balance discrepancy at origin (expected 871442.80, got 871442.79)"
+64,25.0,LOW,"Moderate-risk transaction type: DEBIT; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -4721.49, got 0.00); Destination balance dropped to zero after receiving funds"
+65,20.0,LOW,"Moderate transaction amount (6,440.78); Origin account fully drained to zero balance; Balance discrepancy at origin (expected -4248.78, got 0.00)"
+66,0.0,LOW,No significant risk signals detected
+67,5.0,LOW,"Moderate transaction amount (6,444.64)"
+68,25.0,LOW,"Moderate transaction amount (5,149.66); Moderate-risk transaction type: DEBIT; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -367.66, got 0.00)"
+69,5.0,LOW,"Moderate transaction amount (7,292.16)"
+70,35.0,LOW,"High transaction amount (47,458.86); High-risk transaction type: CASH_OUT; Destination balance dropped to zero after receiving funds"
+71,59.0,MEDIUM,"Very large transaction amount (136,872.92); High-risk transaction type: CASH_OUT; Destination balance dropped to zero after receiving funds; Destination C766572210 received 3 transactions (high-traffic destination); Large cash-out transaction (136,872.92), potential fraud cash-out"
+72,55.0,MEDIUM,"High transaction amount (94,253.33); High-risk transaction type: CASH_OUT; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -69050.28, got 0.00); Large cash-out transaction (94,253.33), potential fraud cash-out"
+73,0.0,LOW,No significant risk signals detected
+74,0.0,LOW,No significant risk signals detected
+75,0.0,LOW,No significant risk signals detected
+76,15.0,LOW,"Origin account fully drained to zero balance; Balance discrepancy at origin (expected -1907.84, got 0.00)"
+77,10.0,LOW,"High transaction amount (12,986.61)"
+78,40.0,MEDIUM,"High transaction amount (42,712.39); High-risk transaction type: TRANSFER; Origin account fully drained to zero balance; Balance discrepancy at origin (expected -32349.00, got 0.00)"
+79,30.0,LOW,"High transaction amount (77,957.68); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance"
+80,35.0,LOW,"High transaction amount (17,231.46); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination balance dropped to zero after receiving funds"
+81,30.0,LOW,"High transaction amount (78,766.03); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance"
+82,54.0,MEDIUM,"Extremely large transaction amount (224,606.64); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination balance dropped to zero after receiving funds; Destination C766572210 received 3 transactions (high-traffic destination)"
+83,35.0,LOW,"Very large transaction amount (125,872.53); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance"
+84,50.0,MEDIUM,"Extremely large transaction amount (379,856.23); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination C1590550415 received 5 transactions (high-traffic destination)"
+85,45.0,MEDIUM,"Very high transaction amount (>1,505,626.01); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance"
+86,59.0,MEDIUM,"Very high transaction amount (>554,026.99); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination balance dropped to zero after receiving funds; Destination C766572210 received 3 transactions (high-traffic destination)"
+87,44.0,MEDIUM,"Very large transaction amount (147,543.10); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination C1359044626 received 3 transactions (high-traffic destination)"
+88,55.0,MEDIUM,"Very high transaction amount (>761,507.39); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination C1590550415 received 5 transactions (high-traffic destination)"
+89,55.0,MEDIUM,"Very high transaction amount (>1,429,051.47); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination C1590550415 received 5 transactions (high-traffic destination)"
+90,40.0,MEDIUM,"Extremely large transaction amount (358,831.92); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance"
+91,49.0,MEDIUM,"Extremely large transaction amount (367,768.40); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination C1359044626 received 3 transactions (high-traffic destination)"
+92,40.0,MEDIUM,"Extremely large transaction amount (209,711.11); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance"
+93,45.0,MEDIUM,"Very high transaction amount (>583,848.46); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance"
+94,55.0,MEDIUM,"Very high transaction amount (>1,724,887.05); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination C1590550415 received 5 transactions (high-traffic destination)"
+95,54.0,MEDIUM,"Very high transaction amount (>710,544.77); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination C1359044626 received 3 transactions (high-traffic destination)"
+96,55.0,MEDIUM,"Very high transaction amount (>581,294.26); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination C1590550415 received 5 transactions (high-traffic destination)"
+97,35.0,LOW,"High transaction amount (11,996.58); High-risk transaction type: TRANSFER; Transaction from account with zero initial balance; Destination balance dropped to zero after receiving funds"
+98,0.0,LOW,No significant risk signals detected
+99,20.0,LOW,"Moderate transaction amount (8,586.98); Origin account fully drained to zero balance; Balance discrepancy at origin (expected -4823.98, got 0.00)"
